@@ -11,6 +11,9 @@
 }
 
 body {
+	background-image: url('/QeEF.gif');
+	align-items: center;
+	justify-content: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -19,20 +22,20 @@ body {
 }
 
 header {
-	width: 100%;
+	width: 70%;
 	padding: 10px 20px 10px 20px;
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	background-color: var(--color-3);
+	background-color: var(--color-2);
 	margin: auto;
-	box-shadow: rgba(0, 0, 0, 0.22) 0px 0px 30px 10px;
+	box-shadow: rgba(133, 32, 32, 0.22) 0px 0px 30px 10px;
 	
 }
 main {
-	width: 100%;
+	width: 70%;
 	min-height: 100vh;
-	background-color: var(--color-1);
+	background-color: #cac6b73a;
 	justify-content: center;
 	align-items: center;
 	margin: auto;
@@ -40,14 +43,18 @@ main {
 }
 
 header img {
-	height: 50px;
+	height: 60px;	
 }
 
 h5 {
-  display: flex;
   color: black;
   text-transform: uppercase;
   margin-left: 3px;
+}
+
+h1 {
+	color: black;
+	text-align: center;	
 }
 
 ul {
@@ -70,13 +77,13 @@ a {
 }
 
 a:hover {
-	text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 16px #fb8cf9,
-		0 0 18px #fb8cf9, 0 0 22px #fb8cf9, 0 0 32px #fb8cf9, 0 0 42px #fb8cf9;
+	text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 16px #424142,
+		0 0 18px #424142, 0 0 22px #424142, 0 0 32px #424142, 0 0 42px #424142;
 }
 
 
 .footer {
-	background-color: var(--color-3);
+	background-color: var(--color-2);
 	position: block;
 	bottom: 0;
 	color: black;
