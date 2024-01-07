@@ -1,4 +1,7 @@
+import Card from "../components/Card";
+
 export default function RotaUm() {
-    return <h1>Painel de Clientes</h1>
+    return <Card/>
+
     
   }
