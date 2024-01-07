@@ -1,0 +1,64 @@
+#img-carousel {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+.carousel {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.carousel-inner {
+  width: 350px;
+  height: 450px;
+}
+
+#fixa {
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+}
+
+#h5-carrousel {
+  color: var(--color-2);
+  text-align: center;
+  margin-top: 10%;
+  text-transform: uppercase;
+}
+
+/*Promoções*/
+
+.ofertas-home {}
+
+#ofertas-home {
+  margin-top: 60px;
+  align-content: center;
+  padding: auto;
+  margin-bottom: 50px;
+}
+
+#h5-destinos {
+  color: var(--color-1);
+  text-decoration: solid color var(--color-3);
+  display: flex;
+  text-transform: uppercase;
+  margin-left: 38%;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+
+strong {
+  color: var(--color-3);
+  text-align: center;
+}
+
+.card-titulo {
+  color: var(--color-3);
+  text-transform: uppercase;
+}
+
+#img-card {
+  float: right;
+}
