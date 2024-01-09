@@ -1,3 +1,5 @@
 export default function RotaTres() {
-    return <h1>Link 3</h1>
+    return <><h2>Em manutenção..</h2>
+    <h3>Favor entrar em contato pelo email pottertravel@gmail.com</h3>
+    </>
   }

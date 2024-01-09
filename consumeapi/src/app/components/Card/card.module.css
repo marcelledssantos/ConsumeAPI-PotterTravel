@@ -1,31 +1,32 @@
 .container {
-    width: 100%;
-    background-color: rgba(202, 192, 177, 0.61);
-    text-align: center;
+  width: 100%;
+  background-color: rgba(202, 192, 177, 0.61);
+  text-align: center;
 }
 
 .container h3 {
-    font-size: xx-large;
-    margin-top: 2px;
+  color: rgb(114, 110, 110);
+  font-size: xx-large;
+  margin-top: 5%;
 }
+
 .container p {
-    font-size: larger;
+  font-size: larger;
 }
 
 .card {
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25),
-      -5px -5px 15px rgba(236, 233, 233, 0.445);
-    cursor: pointer;
-    transition: 0.4s;
-    margin-top: 20px;
-    text-align: center;
-    align-content: center;
-    
-  }
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 15px rgba(236, 233, 233, 0.445);
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top: 20px;
+  text-align: center;
+  align-content: center;
+}
 
 .card:hover {
-    transform: scale(0.95, 0.95);
-    box-shadow: 5px 5px 15px 7px rgba(0, 0, 0, 0.25),
-      -5px -5px 15px 7px rgba(0, 0, 0, 0.22);
+  transform: scale(0.95, 0.95);
+  box-shadow: 5px 5px 15px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 15px 7px rgba(0, 0, 0, 0.22);
 }

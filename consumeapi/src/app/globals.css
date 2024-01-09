@@ -32,14 +32,14 @@ header {
 	box-shadow: rgba(133, 32, 32, 0.22) 0px 0px 30px 10px;
 	
 }
+
 main {
 	width: 70%;
 	min-height: 100vh;
 	background-color: #cac6b73a;
 	justify-content: center;
 	align-items: center;
-	margin: auto;
-	
+	margin: auto;	
 }
 
 header img {
@@ -53,8 +53,22 @@ h5 {
 }
 
 h1 {
-	color: black;
+	color: rgba(70, 67, 67, 0.932);
 	text-align: center;	
+	padding-top: 20%;
+}
+
+h2 {
+	color: rgba(70, 67, 67, 0.932);
+	text-align: center;	
+	padding-top: 3%;
+	font-size: xx-large;
+}
+h3 {
+	color: rgba(70, 67, 67, 0.932);
+	text-align: center;	
+	margin-top: 2%;
+	background-color: #eadec5;
 }
 
 ul {
@@ -80,7 +94,6 @@ a:hover {
 	text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 16px #424142,
 		0 0 18px #424142, 0 0 22px #424142, 0 0 32px #424142, 0 0 42px #424142;
 }
-
 
 .footer {
 	background-color: var(--color-2);

@@ -6,7 +6,7 @@ export default async function Card() {
 	return (
 
 		<div className={styles.container}>
-			<h3>Detalhes do Cliente</h3>
+			<h3>Lista de Usuários</h3>
 			{cards?.map((card) => (
 				<div key={card.id} className={styles.card}>
 					<p><strong>Nome: </strong>{card.nome}</p>
